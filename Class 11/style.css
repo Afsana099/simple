@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+}
+.boundary {
+	margin: 0 auto;
+	width: 1000px;
+}
+.header {
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #c5c3b5;
+	padding: 10px;
+}
+.logo {
+	float: left;
+	width: 500px;
+}
+.logo a {
+	text-decoration: none;
+}
+.logo a h3 {
+	text-decoration: none;
+	font-size: 40px;
+	padding: 5px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #404fef;
+}
+.menu {
+	float: right;
+	width: 495px;
+}
+.menu ul {
+	list-style: none;
+	text-align: right;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a, .about_menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 7px;
+	color: #db4343;
+	margin-top: 15px;
+}
+.menu ul li a:hover, .about_menu ul li a:hover{
+background-color:teal;
+}	
+.bannar{}
+.bannar img {
+	width: 100%;
+	margin-top: 25px;
+}
+.deserts, .breakfasts, .lunchs, .dinners {
+	overflow:hidden;
+}
+.single_desert, .single_breakfast, .single_lunch, .single_dinner {
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+.single_desert:nth-child(3), .single_desert:nth-child(6), .single_breakfast:nth-child(3), .single_breakfast:nth-child(6), .single_lunch:nth-child(3), .single_lunch:nth-child(6), .single_dinner:nth-child(3), .single_dinner:nth-child(6){
+	margin-right:0;
+}
+.single_desert:nth-child(2n+1), .single_breakfast:nth-child(2n+1), .single_lunch:nth-child(2n+1), .single_dinner:nth-child(2n+1) {
+	background-color: #c8c4c5;
+}
+.single_desert h3, .single_breakfast h3, .single_lunch h3, .single_dinner h3 {
+	font-size: 25px;
+	color: #de0057;
+	line-height: 40px;
+	text-transform: capitalize;
+	background-color: #56ce64;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.single_desert img, .single_breakfast img, .single_lunch img, .single_dinner img{
+	width: 100%;
+	height: 250px;
+	margin: 15px auto;
+}
+.single_desert p, .single_breakfast p, .single_lunch p, .single_dinner p, .about_left p{
+	text-transform: capitalize;
+	line-height: 30px;
+	color: crimson;
+	font-size: 17px;
+}
+.single_desert a, .single_breakfast a, .single_lunch a, .single_dinner a, .about_left a {
+	display: inline-block;
+	background-color: #f39999;
+	font-size: 15px;
+	text-transform: capitalize;
+	padding: 10px;
+	text-decoration: none;
+	margin: 10px auto;
+	margin-left: 85px;
+}
+.about{
+	overflow:hidden;
+}
+.about_left {
+	float: left;
+	width: 700px;
+	margin-right: 85px;
+}
+.about_left h3, .about_menu h3 {
+	text-transform: capitalize;
+	color: #5d4ad7;
+	font-size: 30px;
+	padding: 10px auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.about_left a {
+	display: inline-block;
+	margin: auto 300px;
+	margin-top: 20px;
+	padding: 10px;
+}
+.about_left img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.about_menu{
+	overflow:hidden;
+}
+.about_menu ul {
+	list-style: none;
+	line-height: 5px;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.about_menu ul li {}
+.footer {
+	margin-top: 30px;
+}
+.footer h4 {
+	font-size: 25px;
+	color: #EF4B4B;
+	background-color: #7dc2c2;
+	display: block;
+	text-align: end;
+	padding: 30px;
+	text-transform: capitalize;
+	word-spacing: 5px;
+}
+.page-header {
+	background-image: url("img7/header.jpg");
+	width: 100%;
+	margin: 30px auto;
+	height: 160px;
+	background-position: center;
+	background-size: cover;
+}
+.page-header h4 {
+	font-size: 60px;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 40px;
+	color: #d7c07e;
+	letter-spacing: 5px;
+}
+.contact{
+	overflow:hidden;
+}
+.contact_form {
+	float: left;
+	width: 70%;
+}
+.contact_form h4, .contact_address h4 {
+	font-size: 25px;
+	margin: 10px auto;
+	color: brown;
+	text-transform: capitalize;
+}
+.contact_form h4:hover, .contact_address h4:hover{
+	background-color:burlywood;
+	display:inline-block;
+}
+.contact_form form{}
+.contact_form form input, .contact_form form textarea {
+	width: 100%;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	padding: 5px;
+	background-color: antiquewhite;
+}
+.contact_form form input[type="submit"] {
+	color: red;
+	background-color: burlywood;
+	display: inline-block;
+	margin: auto 180px;
+	font-size: 15px;
+	width: 50%;
+	padding: 10px;
+}
+.contact_address{
+	float:right;
+}
+.contact_address ul {
+	list-style: none;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: blueviolet;
+}
+.contact_address ul li{}
+.contact_address ul li span {
+	color: chocolate;
+	text-transform: capitalize;
+	margin-right: 15px;
+}
